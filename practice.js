@@ -37,7 +37,7 @@ var devMountainGoal = null;
 
 //Code here
 function greeting(name){
-  return "hello" + name;
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -46,7 +46,7 @@ function greeting(name){
 
 //Code Here
 var newGreeting = function(name){
-  return "hello" + name;
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -55,7 +55,7 @@ var newGreeting = function(name){
 
 //Code Here
 var finalGreeting = (name)=>{
-  return "hello" + name;
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 9////////////////////
 
@@ -99,10 +99,10 @@ var devMountainClassPet = dog.name;
 function nameCheck(name){
   if (name === "Steven"){
     return "What is up Steven?";
-  } else if (name = "Brian"){
-    return "Hey Brian";
+  } else if (name === "Bryan"){
+    return "Hey Bryan!";
   } else {
-    return "Cool name" + name;
+    return "Cool name, " + name;
   }
 }
 
@@ -135,7 +135,7 @@ function faveColorFinder(color){
   if (color === "red"){
     return "red is a great color";
   } else if (color === "green"){
-    return "green is a solid favorite color "; 
+    return "green is a solid favorite color"; 
   } else if (color === "black"){
     return "so trendy";
   } else {
